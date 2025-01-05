@@ -42,7 +42,7 @@ int main()
 
 int main()
 {
-    uint8_t data[] = {0x13, 0x37};
+    uint8_t data[] = { 0x13, 0x37 };
     uint8_t hash[32];
     mei_sha256_hash(data, sizeof(data), hash);
 
